@@ -296,9 +296,10 @@ body {
   }
 
   .main-section h1 {
+    position: absolute;
+    left: 4em;
     font-size: 47px !important;
-    margin: 0 4rem;
-    padding-top: 5rem;
+    margin: 0.5em 4rem;
     width: 70%;
   }
 
@@ -327,10 +328,8 @@ body {
   }
 
   .main-section {
-    background-image: url(../images/first-section.png);
-    background-repeat: no-repeat;
-    margin-top: -4rem;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 80%;
   }
@@ -378,17 +377,16 @@ body {
   }
 
   .main-section {
-    background-image: url(../images/first-section.png);
-    background-repeat: no-repeat;
-    margin-top: -4rem;
-    background-size: cover;
     position: absolute;
-    top: 17%;
+    top: 10%;
     width: 100%;
   }
 
   .main-section .about-paragraph .about-us span {
     display: block;
+  }
+  .navbar .btn-campaign{
+    display: none;
   }
 }
 
@@ -425,8 +423,6 @@ body {
 }
 
 .navbar .btn-campaign {
-  display: flex;
-  justify-content: center;
   color: #ec5242;
   border: 3px solid #ec5242;
   font-weight: 600;
@@ -583,7 +579,7 @@ body {
 }
 
 .main-section .about-paragraph {
-  position: relative;
+  position: absolute;
   border: 1px solid #d3d3d3;
   padding: 18px;
   text-align: center;
@@ -670,57 +666,3 @@ body {
   padding: 10px 20px 20px 20px;
 }
 
-@media screen and (min-width: 766px) and (max-width: 1023px) {
-  .main-section {
-    width: 120% !important;
-  }
-
-  .events {
-    width: 120%;
-  }
-
-  footer {
-    width: 120%;
-  }
-
-  .top-bar-section {
-    width: 120%;
-  }
-
-  .main-section .main-section-container h1 {
-    width: 100%;
-    margin: 0 -6rem;
-  }
-
-  .main-section .about-paragraph {
-    margin: 0;
-  }
-
-  .navbar .btn-campaign {
-    width: 128px;
-  }
-
-  .about-logo-section h3 {
-    margin-left: 12rem;
-  }
-
-  .about-logo-section p {
-    margin-left: 15rem;
-  }
-
-  .about-logo-section img {
-    margin-left: 13rem;
-  }
-
-  .events h4 {
-    margin-left: 5rem;
-  }
-
-  .events p {
-    margin-left: 7rem;
-  }
-
-  .footer-flex {
-    margin-left: 3rem;
-  }
-}
