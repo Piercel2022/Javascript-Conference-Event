@@ -107,9 +107,10 @@ ul .mobile-nav {
   color: #272a31;
   font-family: 'Lato', sans-serif;
 }
-.mobile-menu{
+
+.mobile-menu {
   position: absolute;
-  top: 0em;
+  top: 0;
   left: 12em;
 }
 
