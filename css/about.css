@@ -385,7 +385,8 @@ body {
   .main-section .about-paragraph .about-us span {
     display: block;
   }
-  .navbar .btn-campaign{
+
+  .navbar .btn-campaign {
     display: none;
   }
 }
@@ -665,4 +666,3 @@ body {
   width: 100%;
   padding: 10px 20px 20px 20px;
 }
-
