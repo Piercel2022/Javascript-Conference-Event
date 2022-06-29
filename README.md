@@ -1,5 +1,4 @@
 # International JavaScript Conference Website
-
 ## Description of the project
 In this capstone project, I am building a conference page website about the International JavaScript Conference 2022 title shortly IJS Summit 2022
 
