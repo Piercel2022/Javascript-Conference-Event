@@ -1,1 +1,1 @@
-# capstone1
+# International JavaScript Conference Website
