@@ -1,0 +1,163 @@
+
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-brand {
+  display: none;
+}
+
+.nav-link {
+  display: none;
+}
+
+.mobile-menu {
+  display: block;
+  position: absolute;
+  top: 5em;
+  left: 5em;
+  gap: 20px;
+  list-style-type: none;
+  font-size: 57px;
+}
+
+.top-bar-section {
+  display: none;
+}
+
+.main-section-title {
+  display: flex;
+  justify-content: center;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: bolder;
+  color: #ec5242;
+  line-height: 46px;
+  font-size: 21px;
+  margin-left: 3em;
+  width: 40%;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.logo-competition-text-desktop {
+  display: none;
+}
+
+.about-logo-section .logo-competition-text-mobile {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 0;
+}
+
+.about-logo-section h3 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  left: -40px;
+  line-height: 30px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.navbar-brand .navbar {
+  display: none;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/images/bg-about-desktop.png);
+  background-repeat: no-repeat;
+}
+
+.navbar .btn-campaign {
+  display: none;
+}
+
+.hello {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-weight: 300;
+  margin-top: 1em;
+}
+
+.main-section .about-paragraph {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  border: 3px solid #d3d3d3;
+  background-color: #fff;
+  width: 90%;
+  line-height: 20px;
+  padding: 2em;
+}
+
+.main-section .contact {
+  display: flex;
+  justify-content: center;
+}
+
+.main-section .contact .p-contact {
+  font-family: 'Lato', sans-serif;
+  line-height: 19px;
+}
+
+.partners-heading span {
+  border-bottom: 2px solid #ec5242;
+  padding-bottom: 5px;
+}
+
+.partners-section .partners-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.partners-flex img {
+  width: 100px;
+  margin: 10px;
+}
+
+.partners-section {
+  background-color: #414246;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.partners-heading {
+  padding: 30px;
+}
+
+.partners-heading strong {
+  font-weight: 500;
+}
+
+.footer-flex {
+  display: flex;
+  height: 10em;
+}
+
+.logo-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: -10em;
+}
