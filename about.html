@@ -6,7 +6,9 @@
   <title>International Javascript Conference 2022</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/about.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px) ">
+        <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 768px) ">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   
 </head>
@@ -38,20 +40,20 @@
     <span class="bar"></span>
   </button>
   <nav class="mobile-nav">
-    <ul>
-      <li><a href="/about.html">About</a></li>
+    <ul class="mobile-menu">
+      <li><a href="about.html">About</a></li>
       <li><a href="#program">Program</a></li>
       <li><a href="#join">Join</a></li>
       <li><a href="#sponsor">Sponsor</a></li>
       <li><a href="#news">News</a></li>
-      <li><a href="/index.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
     </ul>
   </nav>
   <nav class="navbar">
       <a class="navbar-brand" href="../index.html"><img src="/images/logo-about.png" alt="logo"></a>
-        <ul class="menu">
+        <ul class="mobile-menu">
           <li class="item-menu">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="about.html">About</a>
           </li>
           <li class="item-menu">
             <a class="nav-link" href="#">Program</a>
@@ -60,54 +62,59 @@
             <a class="nav-link" href="#">Join</a>
           </li>
           <li class="item-menu">
-            <a class="nav-link" href="#">Sponsor</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="item-menu">
-            <a class="nav-link" href="#">News</a>
+          <li class="item-menu1">
+            <a class="nav-link" href="#">IJS Campaign</a>
           </li>
         </ul>
-        <button class="btn btn-campaign" type="submit">IJS Campaign</button>
   </nav>
 
-  <section class="main-section">
-    <div class="main-section-container">
-      <h1 class="title-about">INTERNATIONAL JAVASCRIPT CONFERENCE 2022</h1>
+  <main class="main-section">
+    <div class="hello">
+      <h3>"Welcome! Developers around the world"</h3>
+    </div>
+    <div class="main-section-title">
+      <h1 >INTERNATIONAL JAVASCRIPT SUMMIT 2022</h1>
     </div>
 
     <div class="about-paragraph">
       <p class="about-us">
         The IJS Conference brings together a vibrant community of experts,academics and activist who comprise the Creative
-        Commons affialiate network in a different country every two years.<br>
-        This year,we hope to expand our invitation list including organization and individuals<span> who want to work
-          with us on shared projects that advance the cause of the Commons,free culture and open knowledge.<br>
+        Commons affialiate network in a different country every two years.
+        This year,we hope to expand our invitation list including organization and individuals who want to work
+          with us on shared projects that advance the cause of the Commons,free culture and open knowledge.
           So if you're active and engaged in the world of open content konwledge - free software advocates ,Wikipedian ,
           Open Knownledge, galleries,libraries,museums,archives,goverments and foundations, lawyers , and avtivist - we
-          hope you'll consider joining us this year to build a stronger, more vibrant commons together</span>
+          hope you'll consider joining us this year to build a stronger, more vibrant commons together.
       </p>
     </div>
 
     <div class="contact">
-      <p class="p-contact">Please contact us per Email for any further questions about IJS Conference 2022
+      <p class="p-contact">Please contact us per Email for any further questions about IJS Summit 2022
         !<br><strong>ijs2022@ijsconference.org</strong></p>
     </div>
-  </section>
+  </main>
 
   <section class="about-logo-section">
     <h3>International <span class="span-2">Javascript</span> Conference 2022 Logo</h3>
-    <p class="logo-competition-text-desktop">The logo of the IJS Conference 2022 was decided through the logo logo-competition
-      from 10 june to 11 july. After online public voting and Selection Committee's judging process,
-    the logo from John Doe won the price. After consultation with Mr. John Doe
-  we optimized the prize-winning-logo for this year's summit as following </p>
-
-  <p class="logo-competition-text-mobile">The logo of the IJS Conference 2022 was decided through the logo logo-competition
+    <div class="logo-competition-text-desktop">
+      <p>The logo of the IJS Conference 2022 was decided through the logo logo-competition
+        from 10 june to 11 july. After online public voting and Selection Committee's judging process,
+      the logo from John Doe won the price. After consultation with Mr. John Doe
+    we optimized the prize-winning-logo for this year's summit as following </p>
+    </div>
+    <div class="logo-competition-text-mobile">
+  <p>The logo of the IJS Conference 2022 was decided through the logo logo-competition
     from 10 june to 11 july.</p>
-    <img class="logo-image" src="/images/logo-about.png" alt="logo choosen"/>
-    
-  </section>
-
-  <section class="events">
+  </div>
+    <div class="logo-image">
+      <img  src="/images/logoabout.png" alt="logo choosen"/>
+    </div>
+    </section>
+    <article class="see-events">Take a look at the last two IJS  Conferences which took place in Munich and in Paris.</article>
+<section class="events">
     <h4>See the <span class="span-2"> past IJS</span> Conferences</h4>
-    <p>Take a look at the last two IJS  Conferences which took place in Munich and in Paris.</p>
     <div class="images">
       <div class="ijs-images">
         <img
@@ -133,6 +140,28 @@
       </div>
     </div>
   </section>
+  <section class="partners-section" id="partners">
+    <h2 class="partners-heading"><strong>Pa<span>rtn</span>ers</strong></h2>
+
+    <div class="partners-flex">
+      <div class="partners-list">
+        <img class="partner-image" src="images/partners/google.png" alt="google" />
+      </div>
+      <div class="partners-list">
+        <img class="partner-image" src="images/partners/cloudinary.svg" alt="cloudinary" />
+      </div>
+      <div class="partners-list">
+        <img class="partner-image" src="images/partners/ionic.svg" alt="ionic" />
+      </div>
+      <div class="partners-list">
+        <img class="partner-image" src="images/partners/kakao.png" alt="kakao" />
+      </div>
+      <div class="partners-list">
+        <img class="partner-image" src="images/partners/pandus.svg" alt="pandus" />
+      </div>
+    </div>
+  </section>
+
 <footer>
     <div class="footer-flex">
       <div class="footer-logo">
@@ -145,7 +174,7 @@
     </div>
   </footer>
   <script src="https://kit.fontawesome.com/c70d972411.js" crossorigin="anonymous"></script>
-  <script src="../js/menu.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 
 </html>
