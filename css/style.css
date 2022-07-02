@@ -1,15 +1,12 @@
 
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
+html,
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
-}
-
-* {
-  margin: 0;
-  box-sizing: border-box;
 }
 
 .hamburger {
@@ -102,16 +99,35 @@ ul .mobile-nav {
   padding: 10px 0;
 }
 
-.mobile-nav ul li a {
+/* .mobile-nav ul li a {
   text-decoration: none;
   color: #272a31;
   font-family: 'Lato', sans-serif;
-}
+}  ***/
 
 .mobile-menu {
-  position: absolute;
-  top: 0;
-  left: 12em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 57px;
+  position: relative;
+  left: -1em;
+  text-decoration: none;
+}
+
+.item-menu1 {
+  border: 3px solid #ec5242;
+  color: #ec5242;
+  padding: 7px;
+  width: 45em;
+  height: 23px;
+}
+
+a:-webkit-any-link {
+  color: #272a31;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .footer-flex .footer-logo a {
@@ -201,19 +217,13 @@ ul .mobile-nav {
   .menu {
     display: flex;
     justify-content: space-between;
-    gap: 84px;
-    margin-left: 260px;
+    gap: 31px;
+    margin-left: 477px;
     position: absolute;
-    top: 50px;
+    top: 29px;
   }
 
-  .btn-campaign {
-    display: flex;
-    position: absolute;
-    top: 50px;
-    margin-left: 70em;
-    justify-content: center;
-    align-items: center;
+  .menu:last-child {
     width: 130px;
     height: 40px;
   }
@@ -233,7 +243,6 @@ ul .mobile-nav {
 
   .main-section {
     width: 100%;
-    padding-left: 16rem;
   }
 
   .main-section .main-container {
@@ -265,6 +274,10 @@ ul .mobile-nav {
     padding: 10px;
     margin-left: 11rem;
     width: 75%;
+  }
+
+  .container-activities {
+    width: 100%;
   }
 
   .program-list .flex-box {
@@ -335,7 +348,8 @@ ul .mobile-nav {
     color: white;
     background-color: #272a31;
     margin-bottom: 5em;
-    height: 720px;
+    height: 592px;
+    width: 100%;
   }
 }
 
@@ -358,14 +372,12 @@ ul .mobile-nav {
 .main-section {
   background-image: url(../images/first-section.png);
   background-repeat: no-repeat;
-  margin-top: -5.2rem;
-  position: absolute;
-  background-size: cover;
-  width: 100%;
+  margin-top: -8.2rem;
+  margin-bottom: -38em;
+  position: relative;
+  max-width: 100%;
   height: 669px;
   background-position: bottom;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 .main-section .main-container {
@@ -389,13 +401,28 @@ ul .mobile-nav {
 }
 
 .event-details {
-  font-size: 13px;
+  position: relative;
+  left: 4em;
   font-weight: 500;
   font-family: 'COCOGOOSE', sans-serif;
 }
 
-.main-title {
-  font-size: 38px;
+.event-details p {
+  position: relative;
+  left: 3em;
+}
+
+.main-container .main-title {
+  /** background-image: url(/images/pietro-jeng-0Sd2qqU5soQ-unsplash.jpg); **/
+  background-repeat: repeat;
+  position: relative;
+  top: 0.5em;
+  width: 60%;
+
+  /**  line-height: 1.3em;  **/
+
+  /**  -webkit-background-clip:text;  **/
+  font-size: 42px;
   font-family: 'COCOGOOSE', sans-serif;
   color: #ec5242;
 }
@@ -408,6 +435,8 @@ ul .mobile-nav {
 }
 
 .main-section h3 {
+  position: relative;
+  left: 4em;
   font-size: 1.3rem;
   font-weight: 400;
 }
@@ -417,6 +446,7 @@ ul .mobile-nav {
   display: flex;
   justify-content: center;
   padding: 30px;
+  width: auto;
 }
 
 .activities h2 {
@@ -467,7 +497,6 @@ ul .mobile-nav {
   align-items: center;
   gap: 17px;
   background-color: #272a31;
-  border: 1px solid red;
 }
 
 .section-speakers-heading h2 {
@@ -501,8 +530,8 @@ ul .mobile-nav {
 
 .activities .btn {
   position: absolute;
-  top: 89em;
-  left: 10em;
+  top: 75em;
+  left: 0;
   display: flex;
   justify-content: center;
   padding: 20px;
