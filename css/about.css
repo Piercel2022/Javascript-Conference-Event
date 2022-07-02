@@ -1,0 +1,223 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+.hamburger {
+  position: relative;
+  display: block;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  z-index: 99;
+  border: none;
+  margin: 20px;
+}
+
+.hamburger .bar {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #272a31;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger::after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #272a31;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger::before {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #272a31;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.hamburger.is-active::before {
+  transform: rotate(-45deg) translate(-6px, 2px);
+}
+
+.hamburger.is-active::after {
+  transform: rotate(45deg) translate(-10px, -6px);
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.mobile-nav {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 100%;
+  min-height: 100vh;
+  z-index: 98;
+  background-color: #d3d3d3;
+  margin-top: 60px;
+  height: 3px;
+  justify-content: center;
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 12em;
+  top: -4em;
+  gap: 60px;
+}
+
+.item-menu1 {
+  border: 3px solid #ec5242;
+  color: #ec5242;
+  padding: 5px;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.mobile-nav ul li {
+  padding: 10px 0;
+}
+
+.mobile-nav ul li a {
+  text-decoration: none;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+  gap: 2em;
+}
+
+.footer-flex .footer-logo a {
+  text-decoration: none;
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #272a31;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer-flex .copyright {
+  font-size: 13px;
+  padding: 33px 20px 20px 20px;
+  color: #272a31;
+  font-weight: 500;
+}
+
+.mobile-nav ul li a:hover {
+  color: #ec5242;
+}
+
+.mobile-nav.is-active {
+  left: 0;
+  width: 100%;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/********* Events *****/
+.ijs-img {
+  width: 100%;
+  height: 250px;
+  margin: 2rem 1rem;
+}
+
+.ijs-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.blend {
+  background: #e53f2d95;
+  width: 375px;
+  height: 250px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 0.3rem;
+}
+
+.blend h2 {
+  color: #fff;
+  font-size: 5rem;
+  margin-top: 1em;
+  padding: 0;
+}
+
+.blend p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 5em;
+}
+
+/********* End events section ********/
+
+.logo-image {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #d3d3d3;
+  margin-left: 10em;
+  width: 100%;
+}
+
+.main-section .contact .p-contact strong {
+  border-bottom: 1px solid black;
+}
+
+.about-logo-section .logo-competition-text-mobile {
+  display: none;
+}
+
+.events {
+  width: 100%;
+  text-align: center;
+}
+
+.events h4 {
+  font-size: 23px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.see-events {
+  position: relative;
+  top: 9em;
+  left: 2em;
+  font-size: 14px;
+  margin: 30px 20px;
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+  width: 79%;
+}
