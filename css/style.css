@@ -395,6 +395,7 @@ a:-webkit-any-link {
   font-size: 18px;
   line-height: 38px;
   font-weight: 500;
+  width: 87%;
   border: 5px solid white;
   color: #272a31;
   background: #f7f7f7;
@@ -409,7 +410,7 @@ a:-webkit-any-link {
 
 .event-details p {
   position: relative;
-  left: 3em;
+  left: 12em;
 }
 
 .main-container .main-title {
@@ -436,9 +437,13 @@ a:-webkit-any-link {
 
 .main-section h3 {
   position: relative;
+  top: 1em;
   left: 4em;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   font-weight: 400;
+}
+@media screen {
+  
 }
 
 .activities .main-program {
