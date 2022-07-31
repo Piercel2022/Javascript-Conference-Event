@@ -112,7 +112,6 @@ ul .mobile-nav {
   list-style-type: none;
   font-size: 57px;
   position: relative;
-  left: -1em;
   text-decoration: none;
 }
 
@@ -384,7 +383,7 @@ a:-webkit-any-link {
   margin: 20px;
 }
 
-.main-section .main-container .greetings {
+.main-section .main-container {
   color: #ec5242;
   padding-top: 4rem;
   font-family: 'Lato', sans-serif;
@@ -403,14 +402,17 @@ a:-webkit-any-link {
 
 .event-details {
   position: relative;
-  left: 4em;
+  top: 1em;
+  left: 2em;
   font-weight: 500;
   font-family: 'COCOGOOSE', sans-serif;
+  color: #000;
 }
 
 .event-details p {
   position: relative;
-  left: 12em;
+  top: -5em;
+  left: 2em;
 }
 
 .main-container .main-title {
@@ -437,8 +439,8 @@ a:-webkit-any-link {
 
 .main-section h3 {
   position: relative;
-  top: 1em;
-  left: 4em;
+  top: -1em;
+  left: 1em;
   font-size: 2.3rem;
   font-weight: 400;
 }
