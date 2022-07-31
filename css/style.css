@@ -342,7 +342,7 @@ a:-webkit-any-link {
   }
 
   .activities {
-    background-image: url(/images/program.svg);
+    background-image: url(./images/program.svg);
     margin-top: 38rem;
     color: white;
     background-color: #272a31;
@@ -421,6 +421,7 @@ a:-webkit-any-link {
   position: relative;
   top: 0.5em;
   width: 60%;
+  font-size: 60px;
 
   /**  line-height: 1.3em;  **/
 
