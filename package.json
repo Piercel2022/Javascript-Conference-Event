@@ -70,7 +70,7 @@
     "debug": "^4.3.4",
     "decamelize": "^1.2.0",
     "decamelize-keys": "^1.1.0",
-    "decode-uri-component": "^0.2.0",
+    "decode-uri-component": "^0.2.1",
     "deep-is": "^0.1.4",
     "define-properties": "^1.1.4",
     "dir-glob": "^3.0.1",
